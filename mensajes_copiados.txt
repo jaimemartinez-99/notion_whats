@@ -1,6 +1,0 @@
-Libro;Biblia;2023
-Musica;Billie Jean;2023
-Twitter;https://x.com/jaime;2021
-Colonia;Creed Aventus;2023
-Colonia;Prada L'Homme;2024-06-29 01:00:12+00:00
-Partido;Bar�a Madrid a las 6;2024-06-29 01:01:21+00:00
