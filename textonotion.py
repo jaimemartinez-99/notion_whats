@@ -4,8 +4,11 @@ Reads from text file and sends to Notion
 """
 from notion.client import NotionClient
 from notion_client import Client
-from tokenprivado import token_notion, token_page, token_database
+import os
 
+token_notion = os.getenv('TOKEN_NOTION')
+token_page = os.getenv('TOKEN_PAGE')
+token_database = os.getenv('TOKEN_DATABASE')
 
 def write_text(client, page_id, text, type):
     client.blocks.children.append(

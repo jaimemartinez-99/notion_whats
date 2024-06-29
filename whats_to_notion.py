@@ -1,6 +1,8 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
-from tokenprivado import token_telegram
+import os
+
+token_telegram = os.getenv('TOKEN_TELEGRAM')
 
 
 async def hello(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
